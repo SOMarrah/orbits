@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <div class="flex">
+  <div id="circle-orbit-container" onClick="onClick()">
+
+  <div id="inner-orbit1" >
+    <div class="inner-orbit-cirlces1" id=0 onClick="treasure(0)"><img src="https://cdn.pixabay.com/photo/2018/10/22/01/00/blue-3764277_1280.png" width="20px"></div>
+  </div>
+
+  <div id="inner-orbit" >
+    <div class="inner-orbit-cirlces" id=1 onClick="treasure(1)"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Arcadian_Planet_Gamma.png" width="30px"></div>
+  </div>
+
+  <div id="middle-orbit" >
+    <div class="middle-orbit-cirlces" id=2 onClick="treasure(2)"><img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Bringer_of_War_Planet.png" width="35px"></div>
+  </div>
+
+  <div id="outer-orbit" >
+    <div class="outer-orbit-cirlces" id=3 onClick="treasure(3)"><img src="https://cdn.pixabay.com/photo/2017/04/04/14/26/pluto-2201446_1280.png" width="35px"></div>
+  </div>
+
+  <div id="outer-orbit1" >
+    <div class="outer-orbit-cirlces1" id=4 onClick="treasure(4)"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Ice_planet.png" width="40px"></div>
+  </div>
+
+  <div id="outer-orbit2" >
+    <div class="outer-orbit-cirlces2" id=5 onClick="treasure(5)"><img src="https://cdn.pixabay.com/photo/2019/07/03/12/14/saturn-4314403_1280.png" width="100px"></div>
+  </div>
+
+</div>
+</div>
+<p>Wins: <a id="wins">0</a> Fuel: <a id="clicks">0 </a> out of 8. Loss: <a id="loss">0</a></p>
+<button type="button" onclick="reload()">Reset Planets</button>
+<script type="text/javascript" src="behavior.js"></script>
+  </body>
+</html>
